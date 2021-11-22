@@ -112,4 +112,3 @@ or update the ApplicationDbContext.cs file but don't know how
 2021-11-21 4:00 PM I had to start the project all over again so I can see where I made those errors
 4:10 And I think my project wasn't running cuz I deleted the models file in the previous project
 4:19 now that I started all over again my project is finally running...oufff
-h
