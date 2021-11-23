@@ -113,3 +113,7 @@ or update the ApplicationDbContext.cs file but don't know how
 4:10 And I think my project wasn't running cuz I deleted the models file in the previous project
 4:19 now that I started all over again my project is finally running...oufff
 5:00 adding a new MVC Controller empty inside areas/Admin and named it Category.cs
+
+
+2021-11-23 12:31 adding a new class in the .Models project with 2 errors of the previous project
+12:33
