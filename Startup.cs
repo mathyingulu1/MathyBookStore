@@ -1,3 +1,4 @@
+using MathyBooks.DataAccess;
 using MathyBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,7 +35,7 @@ namespace MathyBookStore
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            // services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IUnitOfWork, IUnitOfWork>();
             services.AddControllersWithViews();
         }
 
@@ -68,5 +69,10 @@ namespace MathyBookStore
                 endpoints.MapRazorPages();
             });
         }
+    }
+
+    internal interface IUnitOfWork
+    {
+        object Category { get; set; }
     }
 }
