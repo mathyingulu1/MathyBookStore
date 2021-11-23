@@ -115,5 +115,8 @@ or update the ApplicationDbContext.cs file but don't know how
 5:00 adding a new MVC Controller empty inside areas/Admin and named it Category.cs
 
 
-2021-11-23 12:31 adding a new class in the .Models project with 2 errors of the previous project
-12:33
+2021-11-23 12:31 adding a new class in the .Models project name Product with 2 errors of the previous project
+12:33 edit the file just created and build the blue print
+12:45 now im gonna add reference to the new products piece to the database in the ApplicationDbContext.cs file
+12:50 I just checked my Tables in SQl SOE and can't find the dbo products, categories and covertypes, arghh....
+12:53 
