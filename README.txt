@@ -124,3 +124,8 @@ or update the ApplicationDbContext.cs file but don't know how
 
 2021-11-23 11:17 Im back to finish my project knowing that I still have an error in categorycontroller.cs
 11:18 still tryna figure out how to fix it
+11:52 next part Im gonna add the productController.cs to the areas/admin
+11:53 I still have errors on my categorycontroller.cs and I don't know how to fix it so im gonna keep going
+11:54 Getting worse with my errors I have like 25 errors now, arghhhh...
+12:05 create a viewModel in the models project to hold the product object and select list
+12:07
