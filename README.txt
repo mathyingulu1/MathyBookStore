@@ -120,4 +120,7 @@ or update the ApplicationDbContext.cs file but don't know how
 12:45 now im gonna add reference to the new products piece to the database in the ApplicationDbContext.cs file
 12:50 I just checked my Tables in SQl SOE and can't find the dbo products, categories and covertypes, arghh....
 12:53 add the IWebHostEnvironment call and its using statement to the Microsoft.AspNetCore.Hosting
-12:58
+12:58 Im gonna stop right here and do the rest tomorrow, im tired arghhhh...
+
+2021-11-23 11:17 Im back to finish my project knowing that I still have an error in categorycontroller.cs
+11:18 still tryna figure out how to fix it

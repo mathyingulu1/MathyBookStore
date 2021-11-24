@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MathyBooks.DataAccess.Repository;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,9 @@ namespace MathyBookStore.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-
         private readonly IUnitOfWork _unitOfWork;
 
-
-        public CategoryController(IUnitOfWork unitOfWork)
+        public CategoryController(IUnitOfWork, UnitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
@@ -22,20 +21,14 @@ namespace MathyBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        // API calls here
-        #region API CALLS
+        #region API Calls
         [HttpGet]
 
         public IActionResult GetAll()
         {
-            //return NotFound();
             var allObj = _unitOfWork.Category.GetAll();
             return Json(new { data = allObj });
         }
         #endregion
-    }
-
-    internal interface IUnitOfWork_unitOfWork
-    {
     }
 }
