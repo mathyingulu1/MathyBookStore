@@ -128,4 +128,6 @@ or update the ApplicationDbContext.cs file but don't know how
 11:53 I still have errors on my categorycontroller.cs and I don't know how to fix it so im gonna keep going
 11:54 Getting worse with my errors I have like 25 errors now, arghhhh...
 12:05 create a viewModel in the models project to hold the product object and select list
-12:07
+12:07 im gonna modify the ProductVM class so it is public and install the Ms.AspNetCore.Mvc.ViewFeaturespackage.
+12:12 errors again arghh,...tired of this errors honestly
+12:15
